@@ -280,6 +280,10 @@ section.main ul li a:hover {
   }
 }
 
+html {
+  cursor: url('img/gsdgdfg.ico'), default;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
