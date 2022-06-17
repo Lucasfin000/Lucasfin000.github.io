@@ -280,8 +280,9 @@ section.main ul li a:hover {
   }
 }
 
-html {
-  cursor: url('img/Cosmic.png'),default;
+html, body {
+  cursor: url("/img/gsdgdfg.ico"), default;
+  /* just change the cursor.ico path to your location */
 }
 
 @keyframes typewriter {
