@@ -148,6 +148,53 @@
     </style>
   
 </head>
+<style>
+    .congratulation-wrapper.text-center,
+    .congratulation-contents-icon,
+    .pending-contents-icon,
+    .failed-contents-icon,
+    #serverIcon,
+    .congratulation-contents-title,
+    .congratulation-contents-para {
+        opacity: 0;
+    }
+</style>
+
+<div class="congratulation-wrapper text-center">
+    <!-- Do not delete elements or change element ID names. This will break the site -->
+    <div id="successCheck" class="congratulation-contents-icon">
+        <i class="fas fa-check"></i>
+    </div>
+    <div id="pendingIcon" class="pending-contents-icon">
+        <i class="fas fa-ellipsis-h"></i>
+    </div>
+    <div id="failureCross" class="failed-contents-icon">
+        <i class="fas fa-xmark"></i>
+    </div>
+    <img id="serverIcon" style="border-radius: 51%;height: 110px;width: 110px;margin-bottom:10px;"
+        src="https://avatars.githubusercontent.com/u/138615525?s=200&v=4">
+    <!--
+    You can set vc-invalid-domain for a custom message when trying to access a page downloaded to computer (not very likely error)
+    You can set vc-captcha-require for a custom message to show if your server has the captcha setting enabled
+    You can set vc-verify-success for a custom message after the member has verified
+    You can set vc-verify-error for a custom message when an error occurs. This is only for the title, description shows the same as normal.
+    -->
+    <h4 id="serverTitle"
+        vc-invalid-domain="Invalid domain"
+        vc-captcha-require="Complete captcha below"
+        vc-verify-success="Verified!"
+        vc-verify-error="Error"
+        class="congratulation-contents-title">
+        Loading..
+    </h4>
+    <p id="serverInstructions"
+        vc-invalid-domain="You must host this online, follow our instructions."
+        vc-captcha-require="This server requires a captcha. Click the captcha below to verify."
+        vc-verify-success="custom"
+        class="congratulation-contents-para">
+        Please verify for our server...
+    </p>
+</div>
 
 <body class="overflow-hidden">
 
@@ -171,7 +218,7 @@
 </div>
 <div>
 <div class="button-primary-wrapper" style="margin-bottom: 10px;">
-<a hidden href="javascript:unlinkServer()" class="btn-primary small w-button">Unlink</a>
+<a href="https://1cheats.com/store/product/41-nezur-key-bypass-lifetime-license/" class="btn-primary small w-button">Unlink</a>
 <div class="button-border"></div>
 </div>
 
